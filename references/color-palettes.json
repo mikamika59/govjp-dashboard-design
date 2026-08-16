@@ -1,0 +1,143 @@
+{
+  "_source": "デジタル庁「ダッシュボードデザインの実践ガイドブックとデザインテンプレート」カラーコードページ (2026年7月17日更新)",
+  "_source_url": "https://www.digital.go.jp/resources/dashboard-guidebook/color-palette/color-code",
+  "_license": "この配色データ自体は事実情報（色コード）であり、公共データ利用規約(PDL1.0)に準拠したデジタル庁公開データを基に整理したもの。改変・加工して利用する場合は出典明記は不要。無改変で公開する場合は出典を明記すること。",
+  "_note": "各パレットは共通のText/Backgroundトークンに加え、パレット固有のChart/Semanticトークンを持つ。Highlightがそのパレットの『キーカラー』。",
+  "shared": {
+    "text": {
+      "textBlack": "#000000",
+      "textWhite": "#FFFFFF",
+      "label": "#626264",
+      "link": "#0017C1"
+    },
+    "background": {
+      "standard": "#F8F8FB",
+      "control": "#F1F1F4"
+    },
+    "semanticBase": {
+      "success": "#197A4B",
+      "error_default": "#CE0000",
+      "error_orangeOrRed": "#850000"
+    }
+  },
+  "palettes": {
+    "SolidGray": {
+      "labelJa": "Solid Gray（灰色）",
+      "keyColor": "#4D4D4D",
+      "background": { "standard": "#F8F8FB", "highlight": "#4D4D4D", "control": "#F1F1F4" },
+      "chart": {
+        "SolidGray900": "#1A1A1A", "SolidGray700": "#4D4D4D", "SolidGray536": "#767676",
+        "SolidGray400": "#999999", "SolidGray200": "#CCCCCC", "SolidGray50": "#F2F2F2",
+        "Yellow800": "#A58000", "Yellow600": "#D2A400", "Yellow400": "#FFC700"
+      },
+      "semantic": {
+        "positive": "#3460FB", "positiveLight": "#C5D7FB", "positiveBg": "#E8F1FE",
+        "negative": "#FE3939", "negativeLight": "#FFBBBB", "negativeBg": "#FDEEEE",
+        "success": "#197A4B", "error": "#CE0000"
+      },
+      "powerbiTemplateZip": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/1948e3cd-736a-4378-9e31-039b08d11106/c45c6b4d/SolidGray_1_0_0.zip"
+    },
+    "Blue": {
+      "labelJa": "Blue（青色）",
+      "keyColor": "#0017C1",
+      "background": { "standard": "#F8F8FB", "highlight": "#0017C1", "control": "#F1F1F4" },
+      "chart": {
+        "Blue1200": "#000060", "Blue900": "#0017C1", "Blue600": "#3460FB", "Blue400": "#7096F8",
+        "Blue200": "#C5D7FB", "Blue50": "#E8F1FE",
+        "Yellow800": "#A58000", "Yellow600": "#D2A400", "Yellow400": "#FFC700",
+        "SolidGray800": "#333333", "SolidGray600": "#666666", "SolidGray400": "#999999", "SolidGray200": "#CCCCCC"
+      },
+      "semantic": {
+        "positive": "#3460FB", "positiveLight": "#C5D7FB", "positiveBg": "#E8F1FE",
+        "negative": "#FE3939", "negativeLight": "#FFBBBB", "negativeBg": "#FDEEEE",
+        "success": "#197A4B", "error": "#CE0000"
+      },
+      "powerbiTemplateZip": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/1948e3cd-736a-4378-9e31-039b08d11106/3ed84891/Blue_1_0_0.zip"
+    },
+    "LightBlue": {
+      "labelJa": "Light Blue（薄い青色）",
+      "keyColor": "#0055AD",
+      "background": { "standard": "#F8F8FB", "highlight": "#0055AD", "control": "#F1F1F4" },
+      "chart": {
+        "LightBlue1200": "#00234B", "LightBlue900": "#0055AD", "LightBlue600": "#008BF2", "LightBlue400": "#57B8FF",
+        "LightBlue200": "#C0E4FF", "LightBlue50": "#F0F9FF",
+        "Yellow800": "#A58000", "Yellow600": "#D2A400", "Yellow400": "#FFC700",
+        "SolidGray800": "#333333", "SolidGray600": "#666666", "SolidGray400": "#999999", "SolidGray200": "#CCCCCC"
+      },
+      "semantic": {
+        "positive": "#008BF2", "positiveLight": "#C0E4FF", "positiveBg": "#F0F9FF",
+        "negative": "#FE3939", "negativeLight": "#FFBBBB", "negativeBg": "#FDEEEE",
+        "success": "#197A4B", "error": "#CE0000"
+      },
+      "powerbiTemplateZip": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/1948e3cd-736a-4378-9e31-039b08d11106/39c7f4de/LightBlue_1_0_0.zip"
+    },
+    "Cyan": {
+      "labelJa": "Cyan（シアン色）",
+      "keyColor": "#006F83",
+      "background": { "standard": "#F8F8FB", "highlight": "#006F83", "control": "#F1F1F4" },
+      "chart": {
+        "Cyan1200": "#003741", "Cyan900": "#006F83", "Cyan600": "#00A3BF", "Cyan400": "#2BC8E4",
+        "Cyan200": "#99F2FF", "Cyan50": "#E6FCFF",
+        "Green800": "#197A4B", "Green600": "#259D63", "Green400": "#51B883",
+        "SolidGray800": "#333333", "SolidGray600": "#666666", "SolidGray400": "#999999", "SolidGray200": "#CCCCCC"
+      },
+      "semantic": {
+        "positive": "#00A3BF", "positiveLight": "#99F2FF", "positiveBg": "#E6FCFF",
+        "negative": "#666666", "negativeLight": "#CCCCCC", "negativeBg": "#F2F2F2",
+        "success": "#197A4B", "error": "#CE0000"
+      },
+      "powerbiTemplateZip": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/1948e3cd-736a-4378-9e31-039b08d11106/920c2520/Cyan_1_0_0.zip"
+    },
+    "Green": {
+      "labelJa": "Green（緑色）",
+      "keyColor": "#115A36",
+      "background": { "standard": "#F8F8FB", "highlight": "#115A36", "control": "#F1F1F4" },
+      "chart": {
+        "Green1200": "#032213", "Green900": "#115A36", "Green600": "#259D63", "Green400": "#51B883",
+        "Green200": "#9BD4B5", "Green50": "#E6F5EC",
+        "Cyan800": "#008299", "Cyan600": "#00A3BF", "Cyan400": "#2BC8E4",
+        "SolidGray800": "#333333", "SolidGray600": "#666666", "SolidGray400": "#999999", "SolidGray200": "#CCCCCC"
+      },
+      "semantic": {
+        "positive": "#259D63", "positiveLight": "#9BD4B5", "positiveBg": "#E6F5EC",
+        "negative": "#666666", "negativeLight": "#CCCCCC", "negativeBg": "#F2F2F2",
+        "success": "#197A4B", "error": "#CE0000"
+      },
+      "powerbiTemplateZip": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/1948e3cd-736a-4378-9e31-039b08d11106/1cb0997f/Green_1_0_0.zip"
+    },
+    "Orange": {
+      "labelJa": "Orange（オレンジ色）",
+      "keyColor": "#AC3E00",
+      "background": { "standard": "#F8F8FB", "highlight": "#AC3E00", "control": "#F1F1F4" },
+      "chart": {
+        "Orange1200": "#541E00", "Orange900": "#AC3E00", "Orange600": "#FB5B01", "Orange400": "#FF8D44",
+        "Orange200": "#FFC199", "Orange50": "#FFEEE2",
+        "Yellow800": "#A58000", "Yellow600": "#D2A400", "Yellow400": "#FFC700",
+        "SolidGray800": "#333333", "SolidGray600": "#666666", "SolidGray400": "#999999", "SolidGray200": "#CCCCCC"
+      },
+      "semantic": {
+        "positive": "#FB5B01", "positiveLight": "#FFC199", "positiveBg": "#FFEEE2",
+        "negative": "#666666", "negativeLight": "#CCCCCC", "negativeBg": "#F2F2F2",
+        "success": "#197A4B", "error": "#850000"
+      },
+      "powerbiTemplateZip": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/1948e3cd-736a-4378-9e31-039b08d11106/d5882f1b/Orange_1_0_0.zip"
+    },
+    "Red": {
+      "labelJa": "Red（赤色）",
+      "keyColor": "#CE0000",
+      "background": { "standard": "#F8F8FB", "highlight": "#CE0000", "control": "#F1F1F4" },
+      "chart": {
+        "Red1200": "#620000", "Red900": "#CE0000", "Red600": "#FE3939", "Red400": "#FF7171",
+        "Red200": "#FFBBBB", "Red50": "#FDEEEE",
+        "Yellow800": "#A58000", "Yellow600": "#D2A400", "Yellow400": "#FFC700",
+        "SolidGray800": "#333333", "SolidGray600": "#666666", "SolidGray400": "#999999", "SolidGray200": "#CCCCCC"
+      },
+      "semantic": {
+        "positive": "#FE3939", "positiveLight": "#FFBBBB", "positiveBg": "#FDEEEE",
+        "negative": "#666666", "negativeLight": "#CCCCCC", "negativeBg": "#F2F2F2",
+        "success": "#197A4B", "error": "#850000"
+      },
+      "powerbiTemplateZip": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/1948e3cd-736a-4378-9e31-039b08d11106/fa45a040/Red_1_0_0.zip"
+    }
+  }
+}
